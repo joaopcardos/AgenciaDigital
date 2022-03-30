@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #19191b;
+  
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+    
+}
+header ul{
+    display: flex;
+    gap: 27px;
+}
+header li{
+    list-style: none;
+}
+header a {
+    color: #FFFFFFB2;
+    text-decoration: none;
+    font-size: 12.95px;
+}
+
+header button{
+    width: 145px;
+    height: 50px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 3.32px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-top: 50px;
+   
+}
+.titulos{
+    width: 50%;
+   
+   
+  
+}
+.titulos h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.titulos p{
+    color: #FFFFFFB2;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.titulos button{
+    background-color: #27AE60;
+    color: #FFFFFF;
+    border: none;
+    width: 190px;
+    height: 55px;
+   cursor: pointer;
+   font-size: 15px;
+   border-radius: 5px;
+}
+.titulos button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.titulos button img{
+    height: 13px;
+}
+.image-bg img{
+    width: 100%;
+    max-width: 500px;
+    
+}
+.services{
+    padding-top: 10%;
+}
+
+.services-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    
+   
+}
+.services-title h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 900;
+    
+
+}
+.our-services{
+    width: 80%;
+    margin: 0 auto;
+  
+    height: 540px;
+}
+
+.services1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 95px;
+    margin-top: 100px;
+    
+}
+
+.icons{
+    text-align: center;
+    color: white;
+}
+.icons h3{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.icons p{
+    font-size: 13px;
+    color: #FFFFFFB2;
+    
+}
+
+
+@media (max-width: 780px){
+    header{
+        flex-direction: column;
+    }
+    .services1{
+        flex-wrap: wrap;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    header button{
+      margin-top: 20px;
+     
+    }
+    header nav{
+      
+        margin-top: 20px;
+    }
+    .services-title h1{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+        
+    .titulos h1{
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight: 900;
+    }
+    .titulos{
+        width: 100%;
+    
+    }
+    .icons h3{
+        font-size: 20px;
+    }
+    .icons p{
+        font-size: 18px;
+    }
+}
